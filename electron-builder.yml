@@ -1,0 +1,18 @@
+appId: com.example.ai-quota-tracker
+productName: AI 額度追蹤器
+directories:
+  output: dist
+files:
+  - out/**/*
+  - package.json
+extraResources:
+  - from: assets
+    to: assets
+win:
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  shortcutName: AI 額度追蹤器
